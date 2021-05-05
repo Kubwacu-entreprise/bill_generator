@@ -1,5 +1,5 @@
 :root {
-  --black_color: #0000;
+  --black_color: #000;
   --main_color: #17a6eb;
   --second_color: #ffa333;
   --gray_color: #eee;
@@ -92,4 +92,26 @@ header {
   background-color: var(--main_color);
   color: #fff;
   cursor: pointer;
+}
+
+/* TABLE OF BILLS*/
+table {
+  border: 1px solid #ccc;
+  width: 100%;
+  border-collapse: collapse;
+}
+tr {
+  height: 30px;
+  padding: 0 10px;
+}
+.table_header {
+  background-color: var(--black_color);
+  color: #fff;
+  text-align: left;
+}
+.table_line:nth-child(2n) {
+  background-color: #eee;
+}
+.table_line:nth-child(2n + 1) {
+  background-color: #fff;
 }
