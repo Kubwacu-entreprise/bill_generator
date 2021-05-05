@@ -60,15 +60,17 @@ header h1 {
   transition: 0.3s;
   background-color: #fff;
   color: var(--main_color);
-  height: 30px;
+  height: 35px;
   width: 100px;
   border: none;
   font-size: var(--normalFontSize);
   border-radius: 3px;
   margin: 10px 0px;
   border: 1px solid var(--main_color);
+  text-align: center;
 }
 .empty_bills_message button:hover {
   background-color: var(--main_color);
   color: #fff;
+  cursor: pointer;
 }
