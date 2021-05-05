@@ -9,8 +9,15 @@
 </head>
 <body>
     <header>
-        <div><h1></h1></div>
-        <div></div>
+        <div class="header_content">
+            <div><h1>Bill Generator</h1></div>
+            <div></div>
+        </div>
     </header>
+    <div class="body">
+        <div class="empty_message">
+            <h1>You haven't generated any payment invoice yet</h1>
+        </div>
+    </div>
 </body>
 </html>
