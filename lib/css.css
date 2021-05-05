@@ -145,3 +145,9 @@ tr {
   height: 100%;
   width: 100%;
 }
+.invoice_form_container {
+  height: calc(100% - 50px);
+  width: calc(100% - 400px);
+  background-color: #fff;
+  margin: 2% auto;
+}
