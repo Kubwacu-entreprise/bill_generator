@@ -23,12 +23,34 @@ body {
 h1 {
   font-size: var(--titleFontSize);
 }
+.button {
+  transition: 0.3s;
+  background-color: #fff;
+  color: var(--main_color);
+  height: 35px;
+  width: 100px;
+  border: none;
+  font-size: var(--normalFontSize);
+  border-radius: 3px;
+  margin: 10px 0px;
+  border: 1px solid var(--main_color);
+  text-align: center;
+}
+.button:hover {
+  background-color: var(--main_color);
+  color: #fff;
+  cursor: pointer;
+}
 
 /* HEADER */
 header {
   height: 60px;
   background-color: var(--second_color);
   color: #fff;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
 }
 .header_content {
   margin: 0px var(--global_margin);
@@ -53,7 +75,7 @@ header {
 /*BODY*/
 .body {
   background-color: #fff;
-  margin: 50px var(--global_margin);
+  margin: 100px var(--global_margin);
   padding: var(--global_padding);
   box-shadow: 0px 5px 10px #ccc;
 }
@@ -75,30 +97,13 @@ header {
   font-weight: 100;
   margin: 30px 0px 30px 0px;
 }
-.empty_bills_message button {
-  transition: 0.3s;
-  background-color: #fff;
-  color: var(--main_color);
-  height: 35px;
-  width: 100px;
-  border: none;
-  font-size: var(--normalFontSize);
-  border-radius: 3px;
-  margin: 10px 0px;
-  border: 1px solid var(--main_color);
-  text-align: center;
-}
-.empty_bills_message button:hover {
-  background-color: var(--main_color);
-  color: #fff;
-  cursor: pointer;
-}
 
 /* TABLE OF BILLS*/
 table {
   border: 1px solid #ccc;
   width: 100%;
   border-collapse: collapse;
+  font-size: 14px;
 }
 tr {
   height: 30px;
@@ -107,11 +112,26 @@ tr {
 .table_header {
   background-color: var(--black_color);
   color: #fff;
-  text-align: left;
 }
-.table_line:nth-child(2n) {
+.table_row {
+  text-align: center;
+  transition: 0.1s ease-in;
+}
+.table_row:nth-child(2n) {
   background-color: #eee;
 }
-.table_line:nth-child(2n + 1) {
+.table_row:nth-child(2n + 1) {
   background-color: #fff;
+}
+.table_row:nth-child(2n + 1):hover,
+.table_row:nth-child(2n):hover {
+  background-color: var(--main_color);
+  cursor: pointer;
+  color: #fff;
+}
+.number_column {
+  width: 100px;
+}
+.table_next_button_container {
+  text-align: center;
 }

@@ -22,186 +22,71 @@
             </div>
             <h1>You haven't generated any payment invoice yet.</h1>
             <div>
-                <button><i class="fas fa-plus"></i> Invoice </button>
+                <button class="button"><i class="fas fa-plus"></i> Invoice </button>
             </div>
         </div> -->
         <div class="bills_container">
             <table>
                 <tr class="table_header">
-                    <th>N°</th>
-                    <th>Client</th>
+                    <th class="number_colum">N°</th>
+                    <th>Nom du client</th>
                     <th>Date</th>
-                    <th>Amount</th>
+                    <th>Montant (Fbu)</th>
+                    <th></th>
                 </tr>
-                <tr class="table_line">
+                <tr class="table_row">
                     <td>1000000000</td>
-                    <td>Nimushimirimana Huzaifa</td>
-                    <td>2021; 21th avril</td>
+                    <td>Nimushimirimana Huzaifa van ndamme jetri</td>
+                    <td>lundi, le 28 avril 2021; 21th avril</td>
                     <td>2 500 000</td>
                 </tr>
-                <tr class="table_line">
+                <tr class="table_row">
                     <td>1000000000</td>
-                    <td>Nimushimirimana Huzaifa</td>
-                    <td>2021; 21th avril</td>
+                    <td>Nimushimirimana Huzaifa van ndamme jetri</td>
+                    <td>lundi, le 28 avril 2021; 21th avril</td>
                     <td>2 500 000</td>
                 </tr>
-                <tr class="table_line">
+                <tr class="table_row">
                     <td>1000000000</td>
-                    <td>Nimushimirimana Huzaifa</td>
-                    <td>2021; 21th avril</td>
+                    <td>Nimushimirimana Huzaifa van ndamme jetri</td>
+                    <td>lundi, le 28 avril 2021; 21th avril</td>
                     <td>2 500 000</td>
                 </tr>
-                <tr class="table_line">
+                <tr class="table_row">
                     <td>1000000000</td>
-                    <td>Nimushimirimana Huzaifa</td>
-                    <td>2021; 21th avril</td>
+                    <td>Nimushimirimana Huzaifa van ndamme jetri</td>
+                    <td>lundi, le 28 avril 2021; 21th avril</td>
                     <td>2 500 000</td>
                 </tr>
-                <tr class="table_line">
+                <tr class="table_row">
                     <td>1000000000</td>
-                    <td>Nimushimirimana Huzaifa</td>
-                    <td>2021; 21th avril</td>
+                    <td>Nimushimirimana Huzaifa van ndamme jetri</td>
+                    <td>lundi, le 28 avril 2021; 21th avril</td>
                     <td>2 500 000</td>
                 </tr>
-                <tr class="table_line">
+                <tr class="table_row">
                     <td>1000000000</td>
-                    <td>Nimushimirimana Huzaifa</td>
-                    <td>2021; 21th avril</td>
+                    <td>Nimushimirimana Huzaifa van ndamme jetri</td>
+                    <td>lundi, le 28 avril 2021; 21th avril</td>
                     <td>2 500 000</td>
                 </tr>
-                <tr class="table_line">
+                <tr class="table_row">
                     <td>1000000000</td>
-                    <td>Nimushimirimana Huzaifa</td>
-                    <td>2021; 21th avril</td>
+                    <td>Nimushimirimana Huzaifa van ndamme jetri</td>
+                    <td>lundi, le 28 avril 2021; 21th avril</td>
                     <td>2 500 000</td>
                 </tr>
-                <tr class="table_line">
+                <tr class="table_row">
                     <td>1000000000</td>
-                    <td>Nimushimirimana Huzaifa</td>
-                    <td>2021; 21th avril</td>
+                    <td>Nimushimirimana Huzaifa van ndamme jetri</td>
+                    <td>lundi, le 28 avril 2021; 21th avril</td>
                     <td>2 500 000</td>
                 </tr>
-                <tr class="table_line">
-                    <td>1000000000</td>
-                    <td>Nimushimirimana Huzaifa</td>
-                    <td>2021; 21th avril</td>
-                    <td>2 500 000</td>
-                </tr>
-                <tr class="table_line">
-                    <td>1000000000</td>
-                    <td>Nimushimirimana Huzaifa</td>
-                    <td>2021; 21th avril</td>
-                    <td>2 500 000</td>
-                </tr>
-                <tr class="table_line">
-                    <td>1000000000</td>
-                    <td>Nimushimirimana Huzaifa</td>
-                    <td>2021; 21th avril</td>
-                    <td>2 500 000</td>
-                </tr>
-                <tr class="table_line">
-                    <td>1000000000</td>
-                    <td>Nimushimirimana Huzaifa</td>
-                    <td>2021; 21th avril</td>
-                    <td>2 500 000</td>
-                </tr>
-                <tr class="table_line">
-                    <td>1000000000</td>
-                    <td>Nimushimirimana Huzaifa</td>
-                    <td>2021; 21th avril</td>
-                    <td>2 500 000</td>
-                </tr>
-                <tr class="table_line">
-                    <td>1000000000</td>
-                    <td>Nimushimirimana Huzaifa</td>
-                    <td>2021; 21th avril</td>
-                    <td>2 500 000</td>
-                </tr>
-                <tr class="table_line">
-                    <td>1000000000</td>
-                    <td>Nimushimirimana Huzaifa</td>
-                    <td>2021; 21th avril</td>
-                    <td>2 500 000</td>
-                </tr>
-                <tr class="table_line">
-                    <td>1000000000</td>
-                    <td>Nimushimirimana Huzaifa</td>
-                    <td>2021; 21th avril</td>
-                    <td>2 500 000</td>
-                </tr>
-                <tr class="table_line">
-                    <td>1000000000</td>
-                    <td>Nimushimirimana Huzaifa</td>
-                    <td>2021; 21th avril</td>
-                    <td>2 500 000</td>
-                </tr>
-                <tr class="table_line">
-                    <td>1000000000</td>
-                    <td>Nimushimirimana Huzaifa</td>
-                    <td>2021; 21th avril</td>
-                    <td>2 500 000</td>
-                </tr>
-                <tr class="table_line">
-                    <td>1000000000</td>
-                    <td>Nimushimirimana Huzaifa</td>
-                    <td>2021; 21th avril</td>
-                    <td>2 500 000</td>
-                </tr>
-                <tr class="table_line">
-                    <td>1000000000</td>
-                    <td>Nimushimirimana Huzaifa</td>
-                    <td>2021; 21th avril</td>
-                    <td>2 500 000</td>
-                </tr>
-                <tr class="table_line">
-                    <td>1000000000</td>
-                    <td>Nimushimirimana Huzaifa</td>
-                    <td>2021; 21th avril</td>
-                    <td>2 500 000</td>
-                </tr>
-                <tr class="table_line">
-                    <td>1000000000</td>
-                    <td>Nimushimirimana Huzaifa</td>
-                    <td>2021; 21th avril</td>
-                    <td>2 500 000</td>
-                </tr>
-                <tr class="table_line">
-                    <td>1000000000</td>
-                    <td>Nimushimirimana Huzaifa</td>
-                    <td>2021; 21th avril</td>
-                    <td>2 500 000</td>
-                </tr>
-                <tr class="table_line">
-                    <td>1000000000</td>
-                    <td>Nimushimirimana Huzaifa</td>
-                    <td>2021; 21th avril</td>
-                    <td>2 500 000</td>
-                </tr>
-                <tr class="table_line">
-                    <td>1000000000</td>
-                    <td>Nimushimirimana Huzaifa</td>
-                    <td>2021; 21th avril</td>
-                    <td>2 500 000</td>
-                </tr>
-                <tr class="table_line">
-                    <td>1000000000</td>
-                    <td>Nimushimirimana Huzaifa</td>
-                    <td>2021; 21th avril</td>
-                    <td>2 500 000</td>
-                </tr>
-                <tr class="table_line">
-                    <td>1000000000</td>
-                    <td>Nimushimirimana Huzaifa</td>
-                    <td>2021; 21th avril</td>
-                    <td>2 500 000</td>
-                </tr>
-                <tr class="table_line">
-                    <td>1000000000</td>
-                    <td>Nimushimirimana Huzaifa</td>
-                    <td>2021; 21th avril</td>
-                    <td>2 500 000</td>
-                </tr>
+                
             </table>
+            <div class="table_next_button_container">
+                <button class="button">Voir plus</button>
+            </div>
         </div>
     </div>
 </body>
