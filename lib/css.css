@@ -4,10 +4,11 @@
   --accent_main_color: #006b9e;
   --second_color: #ffa333;
   --gray_color: #eee;
-  --global-margin: 200px;
+  --global_margin: 200px;
   --normalFontSize: 16px;
   --largeFontSize: 20px;
   --titleFontSize: 25px;
+  --global_padding: 30px;
 }
 * {
   margin: 0;
@@ -15,15 +16,16 @@
   box-sizing: border-box;
   list-style: none;
   text-decoration: none;
-  color: var(--black_color);
   font-family: Arial, Helvetica, sans-serif;
 }
 body {
   background-color: var(--gray_color);
 }
+h1 {
+  font-size: var(--titleFontSize);
+}
 
 /* HEADER */
-
 header {
   height: 60px;
   background-color: var(--second_color);
@@ -32,9 +34,41 @@ header {
   align-items: center;
 }
 .header_content {
-  margin: 0px var(--global-margin);
+  margin: 0px var(--global_margin);
 }
 header h1 {
   color: #fff;
-  font-size: var(--titleFontSize);
+}
+
+/*BODY*/
+.body {
+  background-color: #fff;
+  margin: 20px var(--global_margin);
+  padding: var(--global_padding);
+  box-shadow: 0px 5px 10px #ccc;
+}
+
+/* EMPTY BILLS MESSAGE*/
+.empty_bills_message {
+  text-align: center;
+}
+.empty_bills_message h1 {
+  font-weight: 100;
+  margin: 30px 0px 30px 0px;
+}
+.empty_bills_message button {
+  transition: 0.3s;
+  background-color: #fff;
+  color: var(--main_color);
+  height: 30px;
+  width: 100px;
+  border: none;
+  font-size: var(--normalFontSize);
+  border-radius: 3px;
+  margin: 10px 0px;
+  border: 1px solid var(--main_color);
+}
+.empty_bills_message button:hover {
+  background-color: var(--main_color);
+  color: #fff;
 }
