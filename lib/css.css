@@ -1,7 +1,6 @@
 :root {
   --black_color: #0000;
   --main_color: #17a6eb;
-  --accent_main_color: #006b9e;
   --second_color: #ffa333;
   --gray_color: #eee;
   --global_margin: 200px;
@@ -51,6 +50,15 @@ header h1 {
 /* EMPTY BILLS MESSAGE*/
 .empty_bills_message {
   text-align: center;
+}
+.empty_draw {
+  height: 300px;
+  width: 300px;
+  margin: auto;
+}
+.empty_draw img {
+  height: 100%;
+  width: 100%;
 }
 .empty_bills_message h1 {
   font-weight: 100;

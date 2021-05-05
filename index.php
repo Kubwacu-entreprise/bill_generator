@@ -17,7 +17,9 @@
     </header>
     <div class="body">
         <div class="empty_bills_message">
-            <div></div>
+            <div class="empty_draw">
+                <img src="lib/empty_draw.svg">
+            </div>
             <h1>You haven't generated any payment invoice yet</h1>
             <div>
                 <button><i class="fas fa-plus"></i> Invoice </button>
