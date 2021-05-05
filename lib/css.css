@@ -4,6 +4,7 @@
   --second_color: #ffa333;
   --gray_color: #eee;
   --global_margin: 200px;
+  --smallFontSize: 14px;
   --normalFontSize: 16px;
   --largeFontSize: 20px;
   --titleFontSize: 25px;
@@ -28,9 +29,9 @@ h1 {
   background-color: #fff;
   color: var(--main_color);
   height: 35px;
-  width: 100px;
+  width: 150px;
   border: none;
-  font-size: var(--normalFontSize);
+  font-size: var(--smallFontSize);
   border-radius: 3px;
   margin: 10px 0px;
   border: 1px solid var(--main_color);
