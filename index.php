@@ -19,5 +19,6 @@
         <?php include_once("lib/includes/empty_bills_message.php") ?>
         <?php include_once("lib/includes/bills_table.php") ?>
     </div>
+    <?php include_once("lib/includes/create_envoice_form.php") ?>
 </body>
 </html>
