@@ -136,3 +136,12 @@ tr {
 .table_next_button_container {
   text-align: center;
 }
+.overlay {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  height: 100%;
+  width: 100%;
+}
