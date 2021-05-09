@@ -1,6 +1,6 @@
 :root {
   --black_color: #000;
-  --main_color: #17a6eb;
+  --main_color: #1565c0;
   --second_color: #ffa333;
   --gray_color: #eee;
   --global_margin: 200px;
@@ -24,6 +24,11 @@ body {
 h1 {
   font-size: var(--titleFontSize);
 }
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
 .button {
   transition: 0.3s;
   background-color: #fff;
@@ -145,6 +150,8 @@ tr {
   height: 100%;
   width: 100%;
 }
+
+/*INVOICE FORM*/
 .invoice_form_container {
   height: calc(100% - 100px);
   width: calc(100% - 400px);
@@ -152,4 +159,58 @@ tr {
   margin: 2% auto;
   padding: 20px;
   overflow: auto;
+}
+.invoice_form_container .header {
+  margin-bottom: 10px;
+  text-align: right;
+  color: #d50000;
+}
+.invoice_form_container i {
+  font-size: 25px;
+  cursor: pointer;
+}
+.invoice_form_container h1 {
+  margin-bottom: 30px;
+  color: var(--second_color);
+  border-bottom: 1px solid;
+  font-weight: lighter;
+}
+.form_group {
+  margin: 20px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.input_container {
+  margin-bottom: 20px;
+}
+.input_container input {
+  height: 35px;
+  padding: 5px 10px;
+  width: 300px;
+  font-size: 14px;
+  border: 1px solid var(--main_color);
+}
+.invoice_form_add_button {
+  text-align: right;
+}
+.invoice_form_add_button i {
+  font-size: 14px;
+}
+.invoice_form_container table {
+  text-align: center;
+  border-collapse: collapse;
+}
+.submit_button {
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.submit_button button {
+  height: 40px;
+  width: 300px;
+}
+.submit_button i {
+  font-size: 14px;
 }
