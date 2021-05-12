@@ -21,5 +21,6 @@
     </div>
     <?php include_once("lib/includes/create_invoice.php") ?>
     <?php include_once("lib/includes/add_item.php") ?>
+    <script src="lib/app.js"></script>
 </body>
 </html>
