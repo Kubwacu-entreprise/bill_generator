@@ -1,3 +1,6 @@
+<?php 
+    require("lib/controller.php");
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
