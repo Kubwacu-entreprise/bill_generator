@@ -1,6 +1,8 @@
 <?php 
     require("lib/controller.php"); 
     new Controller();
+    
+    $bills_number = Controller::count();
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -15,13 +17,16 @@
 <body>
     <header>
         <div class="header_content">
-            <div><h1>Bill generator (nombre de factures créés: <?= Controller::count(); ?>)</h1></div>
+            <div><h1>Bill generator (nombre de factures créés: <?= $bills_number ?>)</h1></div>
             <div><i class="fas fa-tools"></i></div>
         </div>
     </header>
     <div class="body">
-        <?php include_once("lib/includes/empty_message.php") ?>
-        <!-- <?php include_once("lib/includes/invoices_table.php") ?> -->
+        <?php
+            ($bills_number <= 0) ? 
+                include_once("lib/includes/empty_message.php") : include_once("lib/includes/invoices_table.php");
+        ?>
+        
     </div>
     <?php include_once("lib/includes/create_invoice.php") ?>
     <?php include_once("lib/includes/add_item.php") ?>
