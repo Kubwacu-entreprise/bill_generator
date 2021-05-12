@@ -52,7 +52,7 @@
         // count number of bill
         static public function count(){
             $sql = "SELECT COUNT(id) AS bills_length FROM bills";
-            
+
             $qs = self::$_db->query($sql);
             $data = $qs->fetch();
             $qs->closeCursor();
@@ -60,6 +60,15 @@
             return $data['bills_length'];
         }
         
+        static public function getBills(){
+            $qs_data = array();
+
+            $qs = self::$_db->query('SELECT * FROM bills');
+            while($data = $qs->fetch()){
+                
+            }
+            $qs->closeCursor();
+        }
     }
 
     
