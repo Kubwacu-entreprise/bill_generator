@@ -23,6 +23,7 @@ body {
 }
 h1 {
   font-size: var(--titleFontSize);
+  font-weight: lighter;
 }
 label {
   display: block;
@@ -236,4 +237,40 @@ tr {
 }
 .add_item_form_container .submit_button {
   text-align: center;
+}
+
+/* LOADER */
+.loader_container {
+  height: 300px;
+  width: 300px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.loader {
+  border-top: 10px solid var(--second_color);
+  border-left: 10px solid var(--second_color);
+  height: 40%;
+  width: 40%;
+  border-radius: 360px;
+  animation: loader 0.5s infinite;
+}
+
+@keyframes loader {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(90deg);
+  }
+  50% {
+    transform: rotate(120deg);
+  }
+  75% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }

@@ -1,4 +1,7 @@
 <div class="bills_container">
+    <div class="loader_container">
+        <div class="loader"></div>
+    </div>
     <table>
         <tr class="table_header">
             <th class="number_colum">N°</th>
