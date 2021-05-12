@@ -1,8 +1,6 @@
 <?php 
     require("lib/controller.php"); 
-
-    $bills_length = Controller::count();
-
+    new Controller();
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -17,7 +15,7 @@
 <body>
     <header>
         <div class="header_content">
-            <div><h1>Bill generator (nombre de factures créés: <= $bills_length ?></h1></div>
+            <div><h1>Bill generator (nombre de factures créés: <?= Controller::count(); ?>)</h1></div>
             <div><i class="fas fa-tools"></i></div>
         </div>
     </header>
