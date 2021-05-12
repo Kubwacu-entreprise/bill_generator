@@ -78,6 +78,28 @@ header {
   transform: rotate(360deg);
   background-color: rgba(0, 0, 0, 0.5);
 }
+.menu_container {
+  background-color: red;
+  position: relative;
+}
+.menu {
+  background-color: var(--second_color);
+  width: 320px;
+  position: absolute;
+  right: 50px;
+  text-align: center;
+}
+.menu li {
+  height: 35px;
+  line-height: 35px;
+  margin: 3px 5px;
+  cursor: pointer;
+  transition: 0.3s all;
+}
+.menu li:hover {
+  background-color: #fff;
+  color: var(--second_color);
+}
 
 /*BODY*/
 .body {

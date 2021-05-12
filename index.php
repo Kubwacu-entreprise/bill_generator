@@ -20,6 +20,12 @@
             <div><h1>Bill generator (nombre de factures créés: <?= $bills_number ?>)</h1></div>
             <div><i class="fas fa-tools"></i></div>
         </div>
+        <div class="menu_container">
+            <ul class="menu">
+                <li id="create_invoice_button_menu">Créer une facture</li>
+                
+            </ul>
+        </div>
     </header>
     <div class="body">
         <?php
