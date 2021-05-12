@@ -17,7 +17,7 @@
                 </div>
                 <div class="input_container">
                     <label for="">Date d'expiration</label>
-                    <input type="text" placeholder="Entrer la date d'expiration">
+                    <input type="date" placeholder="Entrer la date d'expiration">
                 </div>
                 <div class="input_container">
                     <label for="">Condition</label>
