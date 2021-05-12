@@ -3,7 +3,7 @@
         <div class="header">
             <span id="close_create_invoice_overlay"><i class="fas fa-times"></i></span>
         </div>
-        <form action="" method="POST">
+        <form action="lib/controller.php" method="POST">
             <h1>A propos du vendeur</h1>
             <div class="form_group">
                 
