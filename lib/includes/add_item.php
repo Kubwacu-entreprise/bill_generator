@@ -1,7 +1,7 @@
 <div class="overlay" id="add_item_overlay">
     <div class="add_item_form_container">
         <div class="header">
-            <span><i class="fas fa-times"></i></span>
+            <span id="close_add_item_overlay"><i class="fas fa-times"></i></span>
         </div>
         <form action="" method="POST">
             <div class="form_group">  
