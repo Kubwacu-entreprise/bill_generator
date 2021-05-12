@@ -61,13 +61,15 @@
         }
         
         static public function getBills(){
-            $qs_data = array();
+            $bills = array();
 
             $qs = self::$_db->query('SELECT * FROM bills');
             while($data = $qs->fetch()){
-                
+                $bills[] = $data;
             }
             $qs->closeCursor();
+
+            return $bills;
         }
     }
 
