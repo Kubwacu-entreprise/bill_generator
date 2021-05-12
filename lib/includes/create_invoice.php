@@ -9,23 +9,23 @@
                 
                 <div class="input_container">
                     <label for="">Nom du vendeur</label>
-                    <input type="text" placeholder="Entrer le nom du vendeur">
+                    <input type="text" placeholder="Entrer le nom du vendeur" required>
                 </div>
                 <div class="input_container">
                     <label for="">Téléphone du vendeur</label>
-                    <input type="text" placeholder="Entrer le numero du vendeur">
+                    <input type="text" placeholder="Entrer le numero du vendeur" required>
                 </div>
                 <div class="input_container">
                     <label for="">Date d'expiration</label>
-                    <input type="date" placeholder="Entrer la date d'expiration">
+                    <input type="date" placeholder="Entrer la date d'expiration" required>
                 </div>
                 <div class="input_container">
                     <label for="">Condition</label>
-                    <input type="text" placeholder="Entrer la condition">
+                    <input type="text" placeholder="Entrer la condition" required>
                 </div>
                 <div class="input_container">
                     <label for="">Modalité</label>
-                    <input type="text" placeholder="Entrer la modalité">
+                    <input type="text" placeholder="Entrer la modalité" required>
                 </div>
             </div>
             <h1>A propos du client</h1>
@@ -33,23 +33,23 @@
                 
                 <div class="input_container">
                     <label for="">Nom et Prénom</label>
-                    <input type="text" placeholder="Entrer le nom et prénom du client">
+                    <input type="text" placeholder="Entrer le nom et prénom du client" required>
                 </div>
                 <div class="input_container">
                     <label for="">Entreprise</label>
-                    <input type="text" placeholder="Entrer l'entreprise client">
+                    <input type="text" placeholder="Entrer l'entreprise client" required>
                 </div>
                 <div class="input_container">
                     <label for="">Adresse</label>
-                    <input type="text" placeholder="Entrer l'adresse du client">
+                    <input type="text" placeholder="Entrer l'adresse du client" required>
                 </div>
                 <div class="input_container">
                     <label for="">Ville/Etat</label>
-                    <input type="text" placeholder="Entrer la ville et l'état du client" value="Bujumbura/Burundi">
+                    <input type="text" placeholder="Entrer la ville et l'état du client" value="Bujumbura/Burundi" required>
                 </div>
                 <div class="input_container">
                     <label for="">Téléphone</label>
-                    <input type="text" placeholder="Entrer le numero du client">
+                    <input type="text" placeholder="Entrer le numero du client" required>
                 </div>
             </div>
             <h1>Produits ou Services</h1>
@@ -73,7 +73,7 @@
                 <button class="button"><i class="fas fa-plus"></i> Ajouter </button>
             </div>
             <div class="submit_button">
-                <button class="button"><i class="fas fa-plus"></i> Enregistrer la facture </button>
+                <button class="button" type="submit"><i class="fas fa-plus"></i> Enregistrer la facture </button>
             </div>
         </form>
     </div>
