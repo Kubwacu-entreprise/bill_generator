@@ -1,4 +1,4 @@
-<div class="overlay">
+<div class="overlay" id="create_invoice_overlay">
     <div class="invoice_form_container">
         <div class="header">
             <span><i class="fas fa-times"></i></span>

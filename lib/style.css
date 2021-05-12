@@ -152,6 +152,10 @@ tr {
 }
 
 /*INVOICE FORM*/
+#create_invoice_overlay {
+  display: none;
+}
+
 .invoice_form_container {
   height: calc(100% - 100px);
   width: calc(100% - 400px);
@@ -213,4 +217,23 @@ tr {
 }
 .submit_button i {
   font-size: 14px;
+}
+/* ADD ITEM FORM*/
+#add_item_overlay {
+  display: none;
+}
+
+.add_item_form_container {
+  width: 500px;
+  height: 500px;
+  background-color: #fff;
+  margin: 5% auto;
+  padding: 10px;
+  overflow-y: auto;
+}
+.add_item_form_container .form_group {
+  justify-content: center;
+}
+.add_item_form_container .submit_button {
+  text-align: center;
 }
