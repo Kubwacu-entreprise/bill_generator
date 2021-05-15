@@ -70,7 +70,7 @@
                 </tr>
             </table>
             <div class="invoice_form_add_button">
-                <button class="button"><i class="fas fa-plus"></i> Ajouter </button>
+                <div class="button add_item_button" ><i class="fas fa-plus"></i> Ajouter </div>
             </div>
             <div class="submit_button">
                 <button class="button" type="submit"><i class="fas fa-plus"></i> Enregistrer la facture </button>

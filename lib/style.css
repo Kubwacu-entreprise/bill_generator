@@ -59,6 +59,9 @@ header {
   right: 0;
   left: 0;
 }
+header h1 {
+  font-size: 20px;
+}
 .header_content {
   margin: 0px var(--global_margin);
   display: flex;
@@ -77,28 +80,6 @@ header {
 .header_content i:hover {
   transform: rotate(360deg);
   background-color: rgba(0, 0, 0, 0.5);
-}
-.menu_container {
-  background-color: red;
-  position: relative;
-}
-.menu {
-  background-color: var(--second_color);
-  width: 320px;
-  position: absolute;
-  right: 50px;
-  text-align: center;
-}
-.menu li {
-  height: 35px;
-  line-height: 35px;
-  margin: 3px 5px;
-  cursor: pointer;
-  transition: 0.3s all;
-}
-.menu li:hover {
-  background-color: #fff;
-  color: var(--second_color);
 }
 
 /*BODY*/
@@ -183,7 +164,7 @@ tr {
   height: calc(100% - 100px);
   width: calc(100% - 400px);
   background-color: #fff;
-  margin: 2% auto;
+  margin: 5% auto;
   padding: 20px;
   overflow: auto;
 }
