@@ -137,7 +137,7 @@ tr {
 .table_row:nth-child(2n + 1):hover,
 .table_row:nth-child(2n):hover {
   background-color: var(--main_color);
-  cursor: pointer;
+
   color: #fff;
 }
 .number_column {
