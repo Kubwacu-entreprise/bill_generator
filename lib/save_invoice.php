@@ -14,6 +14,7 @@
             $data['client_address'] = $_POST['client_address'];
             $data['client_country'] = $_POST['client_country'];
             $data['client_phone'] = $_POST['client_phone'];
+            $data['sells'] = $_POST['sells'];
             
 
             // save serialized data

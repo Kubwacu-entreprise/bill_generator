@@ -21,9 +21,9 @@
         public function saveBill($data){
             $sql = "INSERT INTO 
                 bills(seller_name, seller_phone, sell_condition, sell_modality, sell_expiration_date, 
-                client_name, client_entreprise, client_address, client_country, client_phone, created_at) 
+                client_name, client_entreprise, client_address, client_country, client_phone, sells, created_at) 
                 VALUES(:seller_name, :seller_phone, :sell_condition, :sell_modality, :sell_expiration_date, 
-                :client_name, :client_entreprise, :client_address, :client_country, :client_phone, NOW())";
+                :client_name, :client_entreprise, :client_address, :client_country, :client_phone, :sells, NOW())";
 
             try{
                 $qs = self::$_db->prepare($sql);
@@ -39,6 +39,7 @@
                     'client_address' => $data['client_address'],
                     'client_country' => $data['client_country'],
                     'client_phone' => $data['client_phone'],
+                    'sells' => $data['sells']
                     
                 ]);
 

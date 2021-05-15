@@ -201,7 +201,11 @@ tr {
   border: 1px solid var(--main_color);
 }
 .invoice_form_add_button {
-  text-align: right;
+  display: flex;
+  justify-content: right;
+}
+.invoice_form_add_button .add_product {
+  line-height: 30px;
 }
 .invoice_form_add_button i {
   font-size: 14px;

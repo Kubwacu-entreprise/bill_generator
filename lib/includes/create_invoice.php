@@ -53,24 +53,12 @@
                 </div>
             </div>
             <h1>Produits ou Services</h1>
-            <table>
-                <tr class="table_header">
-                    <th>Description</th>
-                    <th>Quantité</th>
-                    <th>Prix unitaire</th>
-                    <th>TVA</th>
-                    <th>Montant</th>
-                </tr>
-                <tr class="table_row">
-                    <td>Payment Netflix</td>
-                    <td>1</td>
-                    <td>15000</td>
-                    <td>1000</td>
-                    <td>151000</td>
-                </tr>
+            <table id="sells_table">
+                
             </table>
+            <textarea name="sells" id="sells_data" cols="30" rows="10" style="display: none"></textarea>
             <div class="invoice_form_add_button">
-                <div class="button add_item_button" ><i class="fas fa-plus"></i> Ajouter </div>
+                <div class="button add_product" id="add_product"><i class="fas fa-plus"></i> Ajouter </div>
             </div>
             <div class="submit_button">
                 <button class="button" type="submit"><i class="fas fa-plus"></i> Enregistrer la facture </button>
