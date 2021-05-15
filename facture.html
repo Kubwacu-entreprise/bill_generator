@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facture N1</title>
+    <style>
+        body{
+            padding: 50px 100px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        *{
+            list-style: none;
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+
+        }
+        header{
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+        }
+        header .right{
+            width: 300px;
+        }
+        header .left{
+            padding-top: 100px;
+        }
+        h3{
+            text-align: center;
+        }
+        h6{
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        table{
+            border-collapse: collapse;
+            margin-top: 20px;
+            text-align: center;
+        }
+        td, th{
+            border: 1px solid;
+        }
+        .header h1{
+            text-align: center;
+            margin-top: 50px;
+        }
+        .header table, .content table{
+            width: 100%;
+
+        }
+        .detail{
+            display: flex;
+            justify-content: right;
+        }
+        .detail table{
+            width: 300px;
+        }
+        footer{
+            margin-top: 100px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="left">
+            <ul>
+                <li><strong>Nom: </strong>  </li>
+                <li><strong>Entreprise: </strong></li>
+                <li><strong>Address: </strong></li>
+                <li><strong>Ville/Etat: </strong></li>
+                <li><strong>Téléphone: </strong></li>
+            </ul>
+        </div>
+        <div class="right">
+            <h3>BRADY STICKER COMPANY</h3>
+            <h6>HELP YOUR NEEDS</h6>
+            <ul>
+                <li><strong>Addresse:</strong> BWIZA, Avenue de l'université; Bujumbura, Burundi</li>
+                <li><strong>Tél:</strong> 75 73 19 93 / 69 90 70 43 <br> 75 38 22 53 / 68 94 00 28</li>
+                <li><strong>Email:</strong> bradysticker@gmail.com</li>
+                <li><strong>Date:</strong> 14/02/2021</li>
+                <div>
+                    <li><strong>N° de la facture:</strong> 1</li>
+                    <li><strong>NIF:</strong> 4001503681-RC:25811/20</li>
+                </div>
+            </ul>
+        </div>
+    </header>
+    <div class="body">
+        <div class="header">
+            <h1>FACTURE</h1>
+            <table>
+                <tr>
+                    <th>Vendeur</th>
+                    <th>Numéro</th>
+                    <th>Date exp.</th>
+                    <th>Condition</th>
+                    <th>Modalité</th>
+                </tr>
+                <tr>
+                    <td>Huzaifa NIMUSHIMIRIMANA</td>
+                    <td>61618465</td>
+                    <td>14/02/2021</td>
+                    <td>-</td>
+                    <td>-</td>
+                </tr>
+            </table>
+        </div>
+        <div class="content">
+            <table>
+                <tr>
+                    <th>Quantité</th>
+                    <th>Description</th>
+                    <th>Prix unitaire</th>
+                    <th>TVA</th>
+                    <th>Montant</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>yoko</td>
+                    <td>5000</td>
+                    <td>100</td>
+                    <td>51000</td>
+                </tr>
+            </table>
+        </div>
+        <div class="detail">
+            <table>
+                <tr>
+                    <th>TOTAL HT</th>
+                    <th>FBU</th>
+                </tr>
+                <tr>
+                    <td>TVA</td>
+                    <td>5000</td>
+                </tr>
+                <tr>
+                    <td>Montant reduit</td>
+                    <td>5000</td>
+                </tr>
+                <tr>
+                    <td>Total</td>
+                    <td>2000</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <footer>
+        <p>
+            Si vous avez une question concernant cette facture n'hesitez pas à nous appelez avec les coordonnés citées en haut, merci.
+        </p>
+    </footer>
+</body>
+</html>
