@@ -7,7 +7,7 @@
             <div class="form_group">  
                 <div class="input_container">
                     <label for="">Description</label>
-                    <input type="text" id="item_product" placeholder="Entrer la description du produit ou service">
+                    <input type="text" id="item_description" placeholder="Entrer la description du produit ou service">
                 </div>
                 <div class="input_container">
                     <label for="">Quantité</label>
@@ -27,7 +27,7 @@
                 </div>
             </div> 
             <div class="submit_button">
-            <button class="button"><i class="fas fa-plus"></i> Ajouter</button>
+                <div class="button add_item_button" id="add_item_button"><i class="fas fa-plus"></i> Ajouter</div>
             </div>
         </form>
     </div>

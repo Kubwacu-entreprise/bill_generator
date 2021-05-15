@@ -28,6 +28,7 @@ h1 {
 label {
   display: block;
   margin-bottom: 5px;
+  font-size: 14px;
 }
 
 .button {
@@ -203,6 +204,7 @@ tr {
 .invoice_form_add_button {
   display: flex;
   justify-content: right;
+  flex-direction: column;
 }
 .invoice_form_add_button .add_product {
   line-height: 30px;
@@ -226,6 +228,20 @@ tr {
 .submit_button i {
   font-size: 14px;
 }
+.extra_field {
+  display: block;
+  margin: 5px 0;
+}
+.extra_field input {
+  color: var(--main_color);
+  height: 30px;
+  width: 150px;
+  font-size: var(--smallFontSize);
+  border-radius: 3px;
+  border: 1px solid var(--main_color);
+  text-align: center;
+}
+
 /* ADD ITEM FORM*/
 #add_item_overlay {
   display: none;
@@ -244,6 +260,11 @@ tr {
 }
 .add_item_form_container .submit_button {
   text-align: center;
+}
+.add_item_button {
+  text-align: center;
+  line-height: 30px;
+  margin: auto;
 }
 
 /* LOADER */

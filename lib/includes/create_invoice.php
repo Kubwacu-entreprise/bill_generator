@@ -59,6 +59,18 @@
             <textarea name="sells" id="sells_data" cols="30" rows="10" style="display: none"></textarea>
             <div class="invoice_form_add_button">
                 <div class="button add_product" id="add_product"><i class="fas fa-plus"></i> Ajouter </div>
+                <div class="extra_field" >
+                    <label for="">Montant reduit</label>
+                    <input type="text">
+                </div>
+                <div class="extra_field" >
+                    <label for="">TVA</label>
+                    <input type="text" value="0" disabled>
+                </div>
+                <div class="extra_field" >
+                    <label for="">Montant</label>
+                    <input type="text" value="0" disabled>
+                </div>
             </div>
             <div class="submit_button">
                 <button class="button" type="submit"><i class="fas fa-plus"></i> Enregistrer la facture </button>
